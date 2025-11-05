@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1>Ejemplo de página con Express-generator</h1>
+    <h2>Lista de Textos</h2>
+    <div>
+      <% if (typeof textos !== 'undefined' && textos.length > 0) { %>
+      <ul>
+        <% textos.forEach(function(texto, index) { %>
+        <li><strong>Texto <%= index + 1 %>:</strong> <%= texto %></li>
+        <% }); %>
+      </ul>
+      <% } else { %>
+      <p>No hay textos disponibles.</p>
+      <% } %>
+      <button onclick="window.location.href='/login'">Ir a Login</button>
+    </div>
+
+    <h3>Primer texto individual:</h3>
+    <p>
+      <%= typeof primerTexto !== 'undefined' ? primerTexto : 'No disponible' %>
+    </p>
+  </body>
+</html>
