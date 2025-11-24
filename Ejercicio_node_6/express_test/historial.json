@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "user": "admin@admin.com",
+    "mensaje": "sadf",
+    "timestamp": "2025-11-24T21:02:35.868Z"
+  },
+  {
+    "id": 2,
+    "user": "admin@admin.com",
+    "mensaje": "sdfs",
+    "timestamp": "2025-11-24T21:02:36.108Z"
+  },
+  {
+    "id": 3,
+    "user": "admin@admin.com",
+    "mensaje": "fsd",
+    "timestamp": "2025-11-24T21:02:36.308Z"
+  },
+  {
+    "id": 4,
+    "user": "admin@admin.com",
+    "mensaje": "fdf",
+    "timestamp": "2025-11-24T21:02:36.491Z"
+  },
+  {
+    "id": 5,
+    "user": "admin@admin.com",
+    "mensaje": "gdh",
+    "timestamp": "2025-11-24T21:02:36.691Z"
+  },
+  {
+    "id": 6,
+    "user": "admin@admin.com",
+    "mensaje": "gfhj",
+    "timestamp": "2025-11-24T21:02:36.874Z"
+  },
+  {
+    "id": 7,
+    "user": "admin@admin.com",
+    "mensaje": "hfj",
+    "timestamp": "2025-11-24T21:02:37.033Z"
+  },
+  {
+    "id": 8,
+    "user": "admin@admin.com",
+    "mensaje": "hgjk",
+    "timestamp": "2025-11-24T21:02:37.193Z"
+  },
+  {
+    "id": 9,
+    "user": "admin@admin.com",
+    "mensaje": "sdfsdfsfs",
+    "timestamp": "2025-11-24T21:03:04.402Z"
+  },
+  {
+    "id": 10,
+    "user": "admin@admin.com",
+    "mensaje": "sdf",
+    "timestamp": "2025-11-24T21:03:04.642Z"
+  },
+  {
+    "id": 11,
+    "user": "admin@admin.com",
+    "mensaje": "dsfg",
+    "timestamp": "2025-11-24T21:03:04.858Z"
+  },
+  {
+    "id": 12,
+    "user": "admin@admin.com",
+    "mensaje": "fghf",
+    "timestamp": "2025-11-24T21:03:05.043Z"
+  },
+  {
+    "id": 13,
+    "user": "admin@admin.com",
+    "mensaje": "fj",
+    "timestamp": "2025-11-24T21:03:05.228Z"
+  },
+  {
+    "id": 14,
+    "user": "admin@admin.com",
+    "mensaje": "asdfsdfga",
+    "timestamp": "2025-11-24T21:03:12.535Z"
+  },
+  {
+    "id": 15,
+    "user": "admin@admin.com",
+    "mensaje": "sdf",
+    "timestamp": "2025-11-24T21:03:12.709Z"
+  },
+  {
+    "id": 16,
+    "user": "admin@admin.com",
+    "mensaje": "dsf",
+    "timestamp": "2025-11-24T21:03:12.875Z"
+  },
+  {
+    "id": 17,
+    "user": "admin@admin.com",
+    "mensaje": "df",
+    "timestamp": "2025-11-24T21:03:13.044Z"
+  },
+  {
+    "id": 18,
+    "user": "admin@admin.com",
+    "mensaje": "bdfb",
+    "timestamp": "2025-11-24T21:03:13.207Z"
+  },
+  {
+    "id": 19,
+    "user": "admin@admin.com",
+    "mensaje": "db",
+    "timestamp": "2025-11-24T21:03:13.342Z"
+  },
+  {
+    "id": 20,
+    "user": "admin@admin.com",
+    "mensaje": "sdf",
+    "timestamp": "2025-11-24T21:03:16.269Z"
+  },
+  {
+    "id": 21,
+    "user": "admin@admin.com",
+    "mensaje": "bdf",
+    "timestamp": "2025-11-24T21:03:16.425Z"
+  },
+  {
+    "id": 22,
+    "user": "admin@admin.com",
+    "mensaje": "bd",
+    "timestamp": "2025-11-24T21:03:16.612Z"
+  }
+]

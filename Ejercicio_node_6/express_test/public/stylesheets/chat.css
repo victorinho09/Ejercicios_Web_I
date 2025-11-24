@@ -1,0 +1,45 @@
+.dashboard-content {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .user-info {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+        border-left: 4px solid #667eea;
+      }
+
+      .user-info h3 {
+        color: #333;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+
+      .user-info p {
+        margin: 8px 0;
+        color: #555;
+      }
+
+      .dashboard-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+
+      .logout-link {
+        color: #dc3545;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease;
+      }
+
+      .logout-link:hover {
+        color: #c82333;
+        text-decoration: underline;
+      }
+
+      .login-container {
+        max-width: 500px;
+      }

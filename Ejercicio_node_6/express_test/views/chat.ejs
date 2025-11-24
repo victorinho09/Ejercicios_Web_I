@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Privado</title>
+    <link rel="stylesheet" href="/stylesheets/chat.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const user = '<%= user.email %>';
+    </script>
+    <script src="/javascripts/chat.js" defer></script>
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>¡Bienvenido al Chat Privado!</h1>
+      <div class="dashboard-content">
+        <ul id="messages"></ul>
+        <form id="form">
+          <input id="input" />
+          <button>Mandar mensaje</button>
+        </form>
+        
+        <button id="show-history" class="history-btn">Mostrar Historial</button>
+
+        <div class="dashboard-actions">
+          <a href="/" class="back-link">← Volver al inicio</a>
+          <a href="/logout" class="logout-link">Cerrar sesión →</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
