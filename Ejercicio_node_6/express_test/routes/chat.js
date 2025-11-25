@@ -4,15 +4,17 @@ const historial = require('../historial');
 
 router.get('/', function (req, res, next) {
   if (req.session.user) {
-    res.render('chat', { user: req.session.user });
+    res.render('chat');
   } else {
     res.redirect('/login');
   }
 });
 
 router.post('/', function (req, res) {
-  historial.add(req.body.user, req.body.mensaje);
-  res.json({ success: true });
+  const userEmail = req.session.user.email;
+  console.log(userEmail);
+  historial.add(userEmail, req.body.mensaje);
+  res.json({ success: true, user: userEmail });
 });
 
 router.get('/historial', function (req, res) {

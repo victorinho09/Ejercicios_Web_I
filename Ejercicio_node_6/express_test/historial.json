@@ -166,5 +166,107 @@
     "user": "admin@admin.com",
     "mensaje": "nuevo mensaje 5",
     "timestamp": "2025-11-25T08:43:01.943Z"
+  },
+  {
+    "id": 29,
+    "user": "admin@admin.com",
+    "mensaje": "hola",
+    "timestamp": "2025-11-25T15:53:44.872Z"
+  },
+  {
+    "id": 30,
+    "user": "admin@admin.com",
+    "mensaje": "sdklbadfb",
+    "timestamp": "2025-11-25T16:00:31.883Z"
+  },
+  {
+    "id": 31,
+    "user": "admin@admin.com",
+    "mensaje": "asdfasdf",
+    "timestamp": "2025-11-25T16:01:35.549Z"
+  },
+  {
+    "id": 32,
+    "user": "admin@admin.com",
+    "mensaje": "asdfsdf",
+    "timestamp": "2025-11-25T16:01:36.381Z"
+  },
+  {
+    "id": 33,
+    "user": "admin@admin.com",
+    "mensaje": "asdf",
+    "timestamp": "2025-11-25T16:02:38.933Z"
+  },
+  {
+    "id": 34,
+    "user": "admin@admin.com",
+    "mensaje": "asdf",
+    "timestamp": "2025-11-25T16:02:39.341Z"
+  },
+  {
+    "id": 35,
+    "user": "admin@admin.com",
+    "mensaje": "asdf",
+    "timestamp": "2025-11-25T16:02:39.698Z"
+  },
+  {
+    "id": 36,
+    "user": "admin@admin.com",
+    "mensaje": "afb",
+    "timestamp": "2025-11-25T16:02:40.124Z"
+  },
+  {
+    "id": 37,
+    "user": "admin@admin.com",
+    "mensaje": "asdfasdf",
+    "timestamp": "2025-11-25T16:03:11.658Z"
+  },
+  {
+    "id": 38,
+    "user": "admin@admin.com",
+    "mensaje": "asdfasd",
+    "timestamp": "2025-11-25T16:05:15.216Z"
+  },
+  {
+    "id": 39,
+    "user": "admin@admin.com",
+    "mensaje": "asdfas",
+    "timestamp": "2025-11-25T16:11:28.780Z"
+  },
+  {
+    "id": 40,
+    "user": "admin@admin.com",
+    "mensaje": "b",
+    "timestamp": "2025-11-25T16:11:31.328Z"
+  },
+  {
+    "id": 41,
+    "user": "admin@admin.com",
+    "mensaje": "fgb",
+    "timestamp": "2025-11-25T16:11:31.487Z"
+  },
+  {
+    "id": 42,
+    "user": "admin@admin.com",
+    "mensaje": "fgb",
+    "timestamp": "2025-11-25T16:11:31.682Z"
+  },
+  {
+    "id": 43,
+    "user": "admin@admin.com",
+    "mensaje": "sfgbsd",
+    "timestamp": "2025-11-25T16:11:31.854Z"
+  },
+  {
+    "id": 44,
+    "user": "admin@admin.com",
+    "mensaje": "gdsf",
+    "timestamp": "2025-11-25T16:11:32.008Z"
+  },
+  {
+    "id": 45,
+    "user": "admin@admin.com",
+    "mensaje": "g",
+    "timestamp": "2025-11-25T16:11:32.201Z"
   }
 ]

@@ -8,16 +8,19 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   mensaje = input.value;
   if (mensaje) {
-    socket.emit('chat', { user, mensaje });
     input.value = '';
     fetch('/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        user: user,
         mensaje: mensaje,
       }),
-    });
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        // Emitir al socket con el usuario validado del servidor
+        socket.emit('chat', { user: data.user, mensaje: mensaje });
+      });
   }
 });
 
