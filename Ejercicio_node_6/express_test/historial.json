@@ -130,5 +130,41 @@
     "user": "admin@admin.com",
     "mensaje": "bd",
     "timestamp": "2025-11-24T21:03:16.612Z"
+  },
+  {
+    "id": 23,
+    "user": "admin@admin.com",
+    "mensaje": "sdfasdf",
+    "timestamp": "2025-11-25T08:42:38.349Z"
+  },
+  {
+    "id": 24,
+    "user": "admin@admin.com",
+    "mensaje": "sdf",
+    "timestamp": "2025-11-25T08:42:38.552Z"
+  },
+  {
+    "id": 25,
+    "user": "admin@admin.com",
+    "mensaje": "asdf",
+    "timestamp": "2025-11-25T08:42:38.717Z"
+  },
+  {
+    "id": 26,
+    "user": "admin@admin.com",
+    "mensaje": "asdf",
+    "timestamp": "2025-11-25T08:42:38.897Z"
+  },
+  {
+    "id": 27,
+    "user": "admin@admin.com",
+    "mensaje": "sdf",
+    "timestamp": "2025-11-25T08:42:39.066Z"
+  },
+  {
+    "id": 28,
+    "user": "admin@admin.com",
+    "mensaje": "nuevo mensaje 5",
+    "timestamp": "2025-11-25T08:43:01.943Z"
   }
 ]

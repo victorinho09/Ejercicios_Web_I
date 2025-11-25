@@ -23,8 +23,13 @@ form.addEventListener('submit', (e) => {
 
 socket.on('chat', (data) => {
   const item = document.createElement('li');
-  item.textContent = `${data.user}: ${data.mensaje}`;
+  item.className = 'mb-2 p-2 bg-light rounded';
+  item.innerHTML = `
+    <strong class="text-primary">${data.user}:</strong>
+    <span class="ms-2">${data.mensaje}</span>
+  `;
   messages.appendChild(item);
+  messages.parentElement.scrollTop = messages.parentElement.scrollHeight;
 });
 
 const showHistoryBtn = document.getElementById('show-history');
@@ -33,10 +38,27 @@ showHistoryBtn.addEventListener('click', () => {
     .then((response) => response.json())
     .then((data) => {
       messages.innerHTML = '';
-      data.forEach((msg) => {
-        const item = document.createElement('li');
-        item.textContent = `${msg.user}: ${msg.mensaje}`;
-        messages.appendChild(item);
-      });
+      if (data.length === 0) {
+        messages.innerHTML =
+          '<li class="text-muted text-center">No hay mensajes en el historial</li>';
+      } else {
+        data.forEach((msg) => {
+          const item = document.createElement('li');
+          item.className = 'mb-2 p-2 bg-light rounded';
+          const timestamp = msg.timestamp
+            ? new Date(msg.timestamp).toLocaleTimeString()
+            : '';
+          item.innerHTML = `
+            <strong class="text-primary">${msg.user}:</strong>
+            <span class="ms-2">${msg.mensaje}</span>
+            ${
+              timestamp
+                ? `<small class="text-muted ms-2">(${timestamp})</small>`
+                : ''
+            }
+          `;
+          messages.appendChild(item);
+        });
+      }
     });
 });
